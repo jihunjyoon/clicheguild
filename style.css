@@ -1,0 +1,79 @@
+body {
+    font: 18px 'Alegreya Sans SC', serif;
+    background-color: #c8cbf0;
+}
+
+h1 {
+    font: 20px 'Laila', serif;
+    text-align: center;
+}
+
+#container {
+    height: auto;
+    width: auto;
+}
+
+#banner {
+    height: 70%;
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* figure out another day #schedule {
+    position: relative;
+    width: 1200px;
+    background-color: #181924;
+    font-family: 'Alegreya';
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 1;
+} */
+
+#nav {
+    position: relative;
+    height: 70px;
+    width: 1200px;
+    background-color: #2d2f41;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav a:hover {
+    color: #ebe7fc;
+}
+
+.button {
+    font: 42pt 'Laila', serif;
+    text-decoration: none;
+    color: #d1ccfa;
+    margin-left: 30px;
+}
+
+#content-box {
+    position: relative;
+    background-color: #ebe7fc;
+    width: 1180px;
+    height: 320px;
+    display: block;
+    margin: 0 auto;
+    padding: 1px 10px;
+}
+
+.box {
+    height: 250px;
+    width: 310px;
+    padding: 0px 0px 5px 15px;
+    float: left;
+    margin: 30px;
+    background: #ebe7fc;
+    border: 2px solid #2d2f41;
+    text-overflow: auto;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 10px;
+}
