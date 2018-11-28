@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://clicheguild.netlify.com/* http://www.cliche.gg/:splat 301!
